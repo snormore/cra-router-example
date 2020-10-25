@@ -1,0 +1,9 @@
+name: cra-site-wo-svc-worker-w-rewrite
+static_sites:
+- name: site 
+  build_command: npm run build && mv build _static
+  github:
+    repo: snormore/cra-router-example
+    branch: sans-service-worker
+    deploy_on_push: true
+  error_document: index.html
