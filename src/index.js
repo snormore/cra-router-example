@@ -6,7 +6,7 @@ import App from './App';
 import Home from './routes/Home';
 import Youtube from './routes/Youtube';
 import About from './routes/About';
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 
 const Routes = () => (
     <BrowserRouter>
@@ -19,4 +19,4 @@ const Routes = () => (
 );
 
 ReactDOM.render(<Routes />, document.getElementById('root'));
-registerServiceWorker();
+// registerServiceWorker();
