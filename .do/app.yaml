@@ -1,0 +1,9 @@
+name: cra-router-example
+static_sites:
+- name: site
+  build_command: npm run build && mv build _static
+  github:
+    repo: snormore/cra-router-example
+    branch: master
+    deploy_on_push: true
+  catchall_document: index.html
