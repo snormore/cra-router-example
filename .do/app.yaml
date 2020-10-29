@@ -1,3 +1,5 @@
+# Make sure you're using the latast version of `doctl`
+# doctl apps create --spec .do/app.yaml
 name: cra-router-example
 static_sites:
 - name: site
